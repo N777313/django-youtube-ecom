@@ -10,4 +10,4 @@ Learn how to build a CRM app with Django in this tutorial:
 
 ---
 
-Aktobe - 10-03-2025 (с)
+Kazakhstan - 10-03-2025 (с)
