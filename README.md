@@ -1,9 +1,13 @@
-### Django project 
+# Django Project Resources
 
-# Materials:
-How to Build an E-commerce Website with Django and Python
-https://www.youtube.com/watch?v=YZvRrldjf1Y&ab_channel=freeCodeCamp.org
+### How to Build an E-commerce Website with Django and Python
+Watch the full tutorial on freeCodeCamp:
+[How to Build an E-commerce Website with Django and Python](https://www.youtube.com/watch?v=YZvRrldjf1Y&ab_channel=freeCodeCamp.org)
 
+### Django Project – Code a CRM App Tutorial
+Learn how to build a CRM app with Django in this tutorial:
+[Django Project – Code a CRM App Tutorial](https://www.youtube.com/watch?v=t10QcFx7d5k&ab_channel=freeCodeCamp.org)
 
-Django Project – Code a CRM App Tutorial
-https://www.youtube.com/watch?v=t10QcFx7d5k&ab_channel=freeCodeCamp.org
+---
+
+Feel free to check out these resources to enhance your Django skills!
