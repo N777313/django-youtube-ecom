@@ -10,4 +10,4 @@ Learn how to build a CRM app with Django in this tutorial:
 
 ---
 
-Feel free to check out these resources to enhance your Django skills!
+Aktobe - 10-03-2025 (с)
