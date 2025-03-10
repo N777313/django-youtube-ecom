@@ -1,0 +1,500 @@
+   16  git checkout dev
+   17  git pull origin dev
+   18  git branch
+   19  git status
+   20  git status
+   21  git branch -D dev_dm_initiative
+   22  git checkout -b dev_dm_initiative
+   23  git branch
+   24  git gui
+   25  exit
+   26  [200~cd /c/git/rel01/dpm-gp-kor
+   27  cd /c/git/rel01/dpm-gp-kor
+   28  pwd
+   29  git checkout dev
+   30  git branch
+   31  git pull origin dev
+   32  git pull origin dev
+   33  git status
+   34  git branch -D dev_dm_initiative
+   35  git checkout -b dev_dm_initiative
+   36  git branch
+   37  git gui
+   38  git checkout dev
+   39  git branch
+   40  git pull origin dev
+   41  git checkout dev
+   42  git pull origin dev
+   43  git branch -D dev_dm_initiative
+   44  git checkout -b dev_dm_initiative
+   45  git branch
+   46  git status
+   47  git gui
+   48  git branch
+   49  git status
+   50  git checkout dev
+   51  git pull origin dev
+   52  cd /c/git/rel01/dpm-gp-kor
+   53  зцв
+   54  pwd
+   55  git checkout dev
+   56  git branch
+   57  git pull origin dev
+   58  git pull origin dev
+   59  git status
+   60  git branch -D dev_dm_initiative
+   61  git checkout -b dev_dm_initiative
+   62  git gui
+   63  git checkout dev
+   64  git pull origin dev
+   65  exit
+   66  cd /c/git/rel01/dpm-gp-kor
+   67  git branch
+   68  git checkout dev
+   69  git pull origin dev
+   70  git branch
+   71  git branch -D dev_dm_initiative
+   72  git checkout -b dev_dm_initiative
+   73  git gui
+   74  git branch
+   75  git checkout dev
+   76  git pull origin dev
+   77  exit
+   78  cd /c/git/rel01/dpm-gp-kor
+   79  git checkout dev
+   80  git pull origin dev
+   81  git status
+   82  git branch
+   83  git branch -D dev_dm_initiative
+   84  git checkout -b dev_dm_initiative
+   85  git gui
+   86  cd /c/git/rel01/dpm-gp-kor
+   87  git checkout dev
+   88  git pull origin dev
+   89  cd /c/git/rel01/dpm-gp-kor
+   90  git checkout dev
+   91  git pull origin dev
+   92  pwd
+   93  git status
+   94  git branch
+   95  git branch -D dev_dm_ggok
+   96  git checkout -b dev_dm_ggok
+   97  git branch
+   98  git gui
+   99  cd /c/git/rel01/dpm-gp-kor
+  100  git checkout dev
+  101  git pull origin dev
+  102  git branch
+  103  git status
+  104  git branch
+  105  git branch -D dev_dm_ggok
+  106  git branch
+  107  git checkout -b dev_dm_ggok
+  108  git branch
+  109  git gui
+  110  exit
+  111  cd /c/git/rel01/dpm-gp-kor
+  112  git checkout dev
+  113  git pull origin dev
+  114  git status
+  115  git branch
+  116  git branch -D dev_dm_ggok
+  117  git checkout -b dev_dm_ggok
+  118  git branch
+  119  git gui
+  120  exit
+  121  cd /c/git/rel01/dpm-gp-kor
+  122  exit
+  123  exit
+  124  pwd
+  125  cd /
+  126  pwd
+  127  cd c/tmp/
+  128  mkdir github
+  129  cd github/
+  130  git clone https://github.com/maxcountryman/flask-login.git
+  131  ls
+  132  ls -alh
+  133  dir
+  134  ls
+  135  pwd
+  136  ls
+  137  git clone https://github.com/maxcountryman/flask-login.git
+  138  exit
+  139  pwd
+  140  cd /
+  141  pwd
+  142  cd tmp/
+  143  pwd
+  144  ls
+  145  pwd
+  146  cd /
+  147  cd c/tmp/
+  148  pwd
+  149  ls
+  150  cd python
+  151  cd python_proj
+  152  ls
+  153  cd github01/
+  154  ls
+  155  mkdir matem-python
+  156  pwd
+  157  cd matem-python/
+  158  pwd
+  159  echo "# Math-div-for-Arushka" >> README.md
+  160  ls
+  161  git init
+  162  ls -alh
+  163  git add README.md
+  164  ls -alh
+  165  git add README.md 
+  166  ls -alh
+  167  git commit -m "first commit"
+  168  ls -alh
+  169  git branch 
+  170  git remote add origin git@github.com:N777313/Math-div-for-Arushka.git
+  171  ls -alh
+  172  git push -u origin master
+  173  git remote add origin git@github.com:N777313/Math-div-for-Arushka.git
+  174  pwd
+  175  cd /
+  176  cd c/tmp/javascript-game/Multiply_table/
+  177  ls
+  178  ls -alh
+  179  cp index_multi.html index.html 
+  180  ls -alh
+  181  git remote add origin git@github.com:N777313/kobeitu.git
+  182  ls -alh
+  183  git branch 
+  184  echo "# kobeitu" >> README.md
+  185  ls -alh
+  186  git init
+  187  ls -alh
+  188  git add README.md
+  189  ls -alh
+  190  git branch 
+  191  git commit -m "first commit"
+  192  git remote add origin git@github.com:N777313/kobeitu.git
+  193  ls -alh
+  194  git branch -M master
+  195  git branch 
+  196  git push -u origin master
+  197  git remote add origin https://github.com/N777313/kobeitu.git
+  198  git remote add set-url origin https://github.com/N777313/kobeitu.git
+  199  pwd
+  200  git clone https://github.com/N777313/kobeitu.git
+  201  ls -alh
+  202  cd kobeitu/
+  203  ls -alh
+  204  git status
+  205  git add README.md index.html script.js 
+  206  git status
+  207  git commit -m "init"
+  208  git branch 
+  209  git remote add origin https://github.com/N777313/kobeitu.git
+  210  git push -u origin main
+  211  git status
+  212  cd ..
+  213  exit
+  214  pwd
+  215  cd /
+  216  cd c/tmp/javascript-game/Multiply_table/
+  217  ls 
+  218  ls -alh
+  219  git clone https://github.com/N777313/N777313.github.io.git
+  220  ls -alh
+  221  cd N777313.github.io/
+  222  git add .
+  223  git add README.md index.html script.js 
+  224  git commit -m "first commit"
+  225  git branch -M main
+  226  git remote add origin https://github.com/N777313/N777313.github.io.git
+  227  git push -u origin main
+  228  git status
+  229  exit
+  230  ssh agatai@192.168.100.209
+  231  hostname
+  232  sshd.exe 
+  233  sshd.exe /?
+  234  sshd.exe agatai@192.168.100.209
+  235  ssh -V
+  236  ping 192.168.100.209
+  237  ssh agatai@192.168.100.209
+  238  ssh /?
+  239  ssh -h
+  240  ssh agatai@192.168.100.209
+  241  ssh agatai@192.168.100.209
+  242  ssh agatai@192.168.100.209
+  243  pwd
+  244  cd /
+  245  pwd
+  246  cd cmd
+  247  pwd
+  248  cd ..
+  249  pwd
+  250  cd dtmp
+  251  cd tmp
+  252  cd python_proj
+  253  pwd
+  254  cd python_proj
+  255  d //c
+  256  cd pwd
+  257  cd /
+  258  dir
+  259  ls -alh
+  260  cd ..
+  261  cd ..
+  262  ls
+  263  cd /
+  264  pwd
+  265  ls -alh
+  266  cd .
+  267  ls -alh
+  268  cd ..
+  269  ls -alh
+  270  help
+  271  cd /?
+  272  cd -h
+  273  cd /c/tmp/python_proj
+  274  pwd
+  275  ls -alh
+  276  cd ..
+  277  ls -alh
+  278  cat .env
+  279  ls -alh | grep env
+  280  cd python_proj
+  281  ls -alh | grep env
+  282  ls -alh | grep .env
+  283  cd python-numpy/
+  284  ls -alh | grep .env
+  285  grep "OPENAI_API_KEY" .env
+  286  python open_ai_test.py 
+  287  python open_ai_test.py 
+  288  pip install openai
+  289  python open_ai_test.py 
+  290  exit
+  291  pwd
+  292  cd /
+  293  cd tmp
+  294  pwd
+  295  ls
+  296  cd /
+  297  pwd
+  298  cd c/tmp
+  299  pwd
+  300  ls -alh
+  301  mkdir github-projects
+  302  cd github-projects/
+  303  mkdir smart-contract-creation
+  304  cd smart-contract-creation/
+  305  git init
+  306  git add README.md
+  307  echo "# exchange-smart-contract-creation" >> README.md
+  308  git add README.md
+  309  git commit -m "1-st"
+  310  git branch -M main
+  311  git remote add origin https://github.com/N777313/exchange-smart-contract-creation.git
+  312  git push -u origin main
+  313  git add .
+  314  git commit -m "2-st"
+  315  git push -u origin main
+  316  git add .
+  317  git commit -m "3-st"
+  318  git push -u origin main
+  319  pwd
+  320  git add .
+  321  git commit -m "4-st"
+  322  git push -u origin main
+  323  exit
+  324  dir
+  325  ls -alh
+  326  python flask_api_app-v4.py 
+  327  ls -alh
+  328  ./scan.cmd
+  329  ls
+  330  scan.cmd
+  331  . scan.cmd
+  332  ls -alh
+  333  ./scan.cmd
+  334  pwd
+  335  ls -alh
+  336  ls -alh
+  337  exit
+  338  ls -alh
+  339  pwd
+  340  cd /
+  341  cd tmp
+  342  ls -alh
+  343  pwd
+  344  ls
+  345  dir
+  346  cd /
+  347  cd /c/tmp
+  348  pwd
+  349  ls
+  350  cd Web-application-2025-January-13/
+  351  ls -alh
+  352  cd ..
+  353  cd scan-local-network-bash/
+  354  ls -alh
+  355  ls -alh
+  356  ls -alh
+  357  ./scan.cmd
+  358  ./scan.cmd
+  359  cat /c/tmp/scan-local-network-bash/scan.cmd
+  360  cmd //c /c/tmp/scan-local-network-bash/scan.cmd
+  361  nano scan2.cmd
+  362  ls -alh
+  363  ./scan2.cmd 
+  364  chmod +775 scan2.cmd 
+  365  ls -alh
+  366  ./scan2.cmd 
+  367  chmod +x scan.sh
+  368  nano scan2.cmd
+  369  ls -alh
+  370  ./scan2.cmd
+  371  cmd //c ./scan.cmd
+  372  cmd //c/tmp/scan.cmd
+  373  nano scan.cmd
+  374  scan.cmd
+  375  ./scan.cmd
+  376  nano scan3.bat
+  377  ls -alh
+  378  ./scan3.bat
+  379  ls -alh
+  380  nano scan4.cmd
+  381  ls -alh
+  382  nano scan4.cmd
+  383  ./scan4.cmd
+  384  scan4.cmd
+  385  nano scan4.cmd
+  386  ./scan4.cmd
+  387  nano scan5.cmd
+  388  ls -alh
+  389  ./scan5.cmd
+  390  nano scan_show_only_live_ip_addresses.cmd
+  391  ls -alh
+  392  ./scan_show_only_live_ip_addresses.cmd 
+  393  nano scan_show_only_live_ip_addresses.cmd
+  394  ./scan_show_only_live_ip_addresses.cmd 
+  395  ./scan_show_only_live_ip_addresses.cmd 
+  396  nmap -sn 192.168.1.0/24
+  397  exit
+  398  pwd
+  399  ls -alh
+  400  cd /c/tmp/python_proj/youtube-video/
+  401  pwd
+  402  ls -alh
+  403  ls -alhmyenv/Scripts/
+  404  ls -alh myenv/Scripts/
+  405  ./myenv/Scripts/activate
+  406  myenv/Scripts/activate
+  407  exit
+  408  cd ..
+  409  cd ..
+  410  cd determine-OS-python/
+  411  nano 1.py
+  412  ls -alh
+  413  python 1.py 
+  414  nano 2-os.py
+  415  python 2-os.py 
+  416  pip install os
+  417  pip install pywin32
+  418  nano 3-win32.py
+  419  python 3-win32.py 
+  420  ls -alh
+  421  python flask_api_app-v4.py 
+  422  python flask_api_app-v4.py
+  423  pip install hypercorn
+  424  pip install flask-asgi
+  425  python flask_api_app-v5.py 
+  426  ipconfig
+  427  python flask_api_app-v5.py 
+  428  python flask_api_app-v5.py 
+  429  python flask_api_app-v5.py 
+  430  pwd
+  431  nano tesxt.txt
+  432  python flask_api_app-v5.py 
+  433  ls -alh
+  434  cat run.bat
+  435  echo "python flask_api_app-v5.py" run5.bat
+  436  cat run5.bat
+  437  ls -alh
+  438  echo "python flask_api_app-v5.py" >> run5.bat
+  439  ls -alh
+  440  cat run5.bat 
+  441  run5
+  442  RuntimeBroker.exe 
+  443  pwd
+  444  cd /c/Books/Binance-trade-chatGPT/
+  445  ssh -T git@github.com
+  446  git remote -v
+  447  git branch
+  448  git status
+  449  git add trade-doc.MD request13-image.jpg request5-image.jpg
+  450  git status
+  451  git push
+  452  git remote set-url origin git@github.com:N777313/trade-docs.git
+  453  git push origin main
+  454  git credential reject https://github.com/N777313/trade-docs.git
+  455  git credential reject
+  456  git credential reject https://github.com/N777313/trade-docs.git
+  457  git push origin main
+  458  cmdkey /delete:git:https://github.com
+  459  зцв
+  460  pwd
+  461  git checkout origin dev
+  462  git checkout dev
+  463  git pull origin dev
+  464  exit
+  465  cd C:\Books\Binance-trade-chatGPT
+  466  cd C\\Books\Binance-trade-chatGPT
+  467  pwd
+  468  cd /c/Books/Binance-trade-chatGPT/
+  469  pwd
+  470  ls -alh
+  471  git remote -v
+  472  git status
+  473  git add .
+  474  git status
+  475  ssh -T git@github.com
+  476  git remote set-url origin https://N777313@github.com/N777313/trade-docs.git
+  477  git push
+  478  git remote -v
+  479  ssh -T git@github.com
+  480  exit
+  481  curl http://localhost:1234/v1/chat/completions \ -H "Content-Type: application/json" \ -d '{ "model": "meta-llama-3.1-8b-instruct", "messages": [ { "role": "system", "content": "Always answer in rhymes. Today is Thursday" }, { "role": "user", "content": "What day is it today?" } ], "temperature": 0.7, "max_tokens": -1, "stream": false }'
+  482  curl http://localhost:1234/v1/chat/completions \ -H "Content-Type: application/json" \ -d '{ "model": "meta-llama-3.1-8b-instruct", "messages": [ { "role": "system", "content": "Always answer in rhymes. Today is Thursday" }, { "role": "user", "content": "What day is it today?" } ], "temperature": 0.7, "max_tokens": -1, "stream": false }'
+  483  exit
+  484  cd /
+  485  cd /c/tmp/python_proj/blackbird-github/
+  486  mkdir clone
+  487  cd clone/
+  488  git clone https://github.com/p1ngul1n0/blackbird
+  489  cd blackbird
+  490  pwd
+  491  pip install -r requirements.txt
+  492  history | grep venv
+  493  ls -alh
+  494  python -m venv virt
+  495  source virt/Scripts/activate
+  496  pip install -r requirements.txt
+  497  python blackbird.py --username zina-tlepbergenova-815ba763
+  498  python blackbird.py --username ztlepbergenova
+  499  python blackbird.py --username zina.tlepbergenova
+  500  python blackbird.py --username zina.tlepbergenova --ai
+  501  pwd
+  502  cd /
+  503  cd /c/tmp/python_proj/django-youtube-ecom/
+  504  git config --global user.name "N777313"
+  505  git config --global user.email "0x100N004@proton.me"
+  506  git config --global push.default matching
+  507  git config --global alias.co checkout
+  508  git init
+  509  git add .
+  510  git commit -am 'Initial'
+  511  git remote add origin https://github.com/N777313/django-youtube-ecom.git
+  512  git branch -M main
+  513  git push -u origin main
+  514  history
+  515  history >> history_10032025_commands.txt

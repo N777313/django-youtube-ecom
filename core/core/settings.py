@@ -55,7 +55,9 @@ ROOT_URLCONF = "core.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [
+            BASE_DIR / 'templates',
+        ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -116,9 +118,19 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
+
+# Папки, которые Django будет искать для статических файлов, в режиме разработки
+STATICFILES_DIRS = [
+    BASE_DIR / "djecommerce/static",  # Здесь вы можете добавить свои папки для статики
+]
+
+# Папка, куда Django будет собирать статические файлы в режиме продакшн
+STATIC_ROOT = BASE_DIR / "staticfiles"  # Путь для собранных статических файлов
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+

@@ -1,0 +1,38 @@
+{% load static %}  <!-- Добавляем загрузку тега static -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My E-commerce Site{% endblock %}</title>
+    <!-- Подключаем стили CSS -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Основное меню навигации -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/items/">Items</a></li>
+                <li><a href="/cart/">Cart</a></li>
+                <li><a href="/profile/">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Основной контент страницы, который будет заменен на других страницах -->
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My E-commerce Site</p>
+    </footer>
+
+    <!-- Подключение скриптов -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
