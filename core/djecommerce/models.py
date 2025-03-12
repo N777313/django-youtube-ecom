@@ -2,13 +2,29 @@ from django.conf import settings
 from django.db import models
 
 
-# Create your models here.
+CATEGORY_CHOICES = (
+    ('F', 'Fruite'),
+    ('V', 'vegetables'),
+    ('OW', 'Outwear'),
+    ('BB', 'Bread and baked goods'),
+    ('DP','Dairy products')
+)
+
+LABEL_CHOICES = (
+    ('P', 'primary'),
+    ('S', 'secondary'),
+    ('D', 'danger')
+)
 
 class Item(models.Model):
     title = models.CharField(max_length=100)
+    title_full = models.CharField(max_length=8128)
     # price = models.DecimalField(max_digits=10, decimal_places=2)
     # price = models.DecimalField(max_digits=10, decimal_places=2)
     price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
+    category = models.CharField(choices=CATEGORY_CHOICES, max_length=2)
+    label = models.CharField(choices=LABEL_CHOICES, max_length=1)
+    imgsrc = models.CharField(max_length=8128)
 
 
     def __str__(self):
