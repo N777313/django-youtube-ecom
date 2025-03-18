@@ -42,13 +42,13 @@
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    <a class="nav-link" href="{% url 'core:home' %}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'product' %}">Product</a>
+                    <a class="nav-link" href="">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{% url 'checkout' %}">Checkout</a>
+                    <a class="nav-link" href="{% url 'core:checkout' %}">Checkout</a>
                   </li>
             </ul>
             <!-- Left links -->
@@ -94,7 +94,7 @@
                 <div class="p-4">
                     <div class="mb-3">
                         <a href="">
-                            <span class="badge bg-dark me-1">Category 2</span>
+                            <span class="badge bg-dark me-1">{{ object.get_category_display }}</span>
                         </a>
                         <a href="">
                             <span class="badge bg-info me-1">New</span>
@@ -105,10 +105,14 @@
                     </div>
 
                     <p class="lead">
+                        {% if object.discount_price %}
                         <span class="me-1">
-                            <del>$200</del>
+                            <del>{{ object.price }} ₸</del>
                         </span>
-                        <span>$100</span>
+                        <span>{{ object.discount_price }} ₸</span>
+                        {% else %}
+                        <span>{{ object.price }} ₸</span>
+                        {% endif %}
                     </p>
 
                     <strong><p style="font-size: 20px;">Description</p></strong>

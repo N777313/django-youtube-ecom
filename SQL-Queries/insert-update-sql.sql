@@ -1,5 +1,4 @@
-SELECT id, title, titel_full, price, category, label, imgsrc
-FROM djecommerce_item;
+--SELECT id, title, titel_full, price, category, label, imgsrc FROM djecommerce_item;
 select * FROM djecommerce_item;
 
 
@@ -25,4 +24,12 @@ UPDATE djecommerce_item SET title_full = 'Помидоры черри' WHERE tit
 UPDATE djecommerce_item SET title_full = 'Апельсин' WHERE title = 'orange';
 UPDATE djecommerce_item SET title_full = 'Картофель' WHERE title = 'potato';
 
+--###################
+INSERT INTO djecommerce_item
+(title, price, category, label, imgsrc, title_full)
+VALUES('semga-fish', 7830, 'DP', 'P', 'img\semga-fish.png', 'Семга Семь Морей');
 
+
+INSERT INTO djecommerce_item
+(title, price, category, label, imgsrc, title_full)
+VALUES('sliva', 2550, 'DP', 'P', 'img\sliva.png', 'Слива');
