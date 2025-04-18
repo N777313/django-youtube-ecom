@@ -28,6 +28,7 @@ class Item(models.Model):
     imgsrc = models.CharField(max_length=8128)
     slug = models.SlugField()
     description = models.TextField()
+    
 
     def __str__(self):
         return self.title
@@ -36,13 +37,20 @@ class Item(models.Model):
         return reverse("core:product", kwargs={
             'slug': self.slug
         })
+    
+    def get_add_to_cart_url(self):
+        return reverse("core:add-to-cart", kwargs={
+            'slug': self.slug
+        })
 
 class OrderItem(models.Model):
     item = models.ForeignKey(Item, on_delete=models.CASCADE)
-    quantity = models.PositiveIntegerField(default=1)  # Добавил поле для количества товаров
+    # quantity = models.PositiveIntegerField(default=1)  # Добавил поле для количества товаров
+    quantity = models.IntegerField(default=1)
 
     def __str__(self):
-        return f"{self.item.title} (x{self.quantity})"  # Возвращаем название товара и количество
+        return f"{self.quantity} of {self.item.title}"
+        #return f"{self.item.title} (x{self.quantity})"  # Возвращаем название товара и количество
 
 class Order(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)

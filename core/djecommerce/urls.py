@@ -3,7 +3,8 @@ from . import views
 from .views import (
     ItemDetailView,
     checkout,
-    HomeView
+    HomeView,
+    add_to_cart
 )
 
 app_name = 'core'
@@ -15,4 +16,6 @@ urlpatterns = [
     path('checkout/', views.checkout, name='checkout'),
     # path('product/', views.product, name='product'),
     path('product/<slug>/', ItemDetailView.as_view(), name='product'),
+    #path('add-to-cart/<slug>/', add_to_cart, name='add-to-cart'),
+    path('add-to-cart/<slug>/', add_to_cart, name='add-to-cart'),
 ]
